@@ -13,7 +13,6 @@
     "@types/react-dom": "^17.0.1",
     "algosdk": "^1.9.1",
     "bootstrap": "^4.6.0",
-    "node-sass": "^5.0.0",
     "prismjs": "^1.23.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -25,7 +24,7 @@
     "web-vitals": "^1.1.0"
   },
   "scripts": {
-    "start": "PORT=3001 react-scripts start",
+    "start": "PORT=3001 react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -50,6 +49,7 @@
   },
   "devDependencies": {
     "@types/prismjs": "^1.16.3",
-    "@types/react-text-mask": "^5.4.6"
+    "@types/react-text-mask": "^5.4.6",
+    "sass": "^1.49.0"
   }
 }
